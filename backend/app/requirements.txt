@@ -1,0 +1,34 @@
+# FastAPI и зависимости
+fastapi==0.104.1
+uvicorn==0.24.0
+python-multipart==0.0.6
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+pydantic[email]==2.4.2
+pydantic-settings==2.0.3
+
+# База данных
+sqlalchemy==2.0.23
+alembic==1.12.1
+asyncpg==0.29.0
+psycopg2-binary==2.9.9
+
+# Celery и Redis
+celery==5.3.4
+redis==5.0.1
+aioredis==2.0.1
+
+# WebSockets
+websockets==12.0
+
+# Утилиты
+python-dateutil==2.8.2
+pytz==2023.3.post1
+
+# Тестирование
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.1
+
+# Логирование
+loguru==0.7.2
